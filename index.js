@@ -1,7 +1,7 @@
 function suma(a, b) {
     const resultado = a + b;
     return resultado;
-} 
+}
 
 function multiplicar(a, b) {
     let resultado = 0;
@@ -9,8 +9,9 @@ function multiplicar(a, b) {
         resultado = suma(resultado, a);
     }
     return resultado;
-} 
+}
 
 module.exports = {
     suma, multiplicar
 }
+
