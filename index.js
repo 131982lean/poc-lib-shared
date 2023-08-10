@@ -4,7 +4,7 @@ function suma(a, b) {
 }
 
 function multiplicar(a, b) {
-    let resultado = 0;
+    let resultado = 1;
     for(let i = 0; i < b; i++) {
         resultado = suma(resultado, a);
     }
